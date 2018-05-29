@@ -15,7 +15,7 @@ Given a user table, go over a mySQL database and create users in Intercom's API.
 
 This theoretical approach uses a wrapper for Intercom and mySQL in python to query for user data in the mySQL database and funnels that data into commands to create users in Intercom.
 
-The code has functionally to query for a limited number of rows at a time in case of large databases and read-locks the database during execution.
+The code has functionality to query for a limited number of rows at a time in case of large databases and read-locks the database during execution.
 
 
 
